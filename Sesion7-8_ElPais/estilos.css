@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(10, 72, 86);
+    width: 100%;
+    height: 8vh;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+header ul li {
+    display: inline-block;
+    width: 33%;
+    color: white;
+}
+
+header ul li.elpais {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2em;
+    padding-top: 1%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#cajaSuperior {
+    width: 100%;
+}
+
+#cajaSuperior img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 4em;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 2%;
+    text-align: center;
+    line-height: 1.2;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+section {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 1.1;
+    text-align: center;
+}
+
+section img {
+    width: 55%;
+    padding-top: 4%;
+    padding-bottom: 8%;
+}
+
+section p {
+    text-align: left;
+    line-height: 1.7;
+}
+
+section p::first-letter {
+    font-size: 15em;
+    font-weight: bold;
+    float: left;
+    line-height: 0.8;
+}
+
+article {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+}
+
+article p {
+    padding-bottom: 3%;
+}
+
+article ul li {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+h3 {
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+}
+
+div {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+div img {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+footer img {
+    width: 100%;
+    height: auto;
+}
+
+span {
+    font-weight: bold;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}

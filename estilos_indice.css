@@ -2,3 +2,25 @@
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     letter-spacing: 2px
 }
+
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+ol {
+    color: wheat;
+}
+
+a {
+    color: wheat;
+}
+
+a:hover {
+    text-decoration: line-through;
+    color: blue;
+}

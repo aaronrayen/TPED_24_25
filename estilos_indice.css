@@ -10,17 +10,23 @@ body {
 h1 {
     text-align: center;
     color: white;
+    font-size: 4em;
 }
 
 ol {
     color: wheat;
+    text-align: center;
+    margin-right: 40%;
+    margin-left: 40%;
+    line-height: 2;
 }
 
 a {
     color: wheat;
+    text-decoration: none;
 }
 
 a:hover {
-    text-decoration: line-through;
+    text-decoration: underline;
     color: blue;
 }

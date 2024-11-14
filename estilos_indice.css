@@ -1,6 +1,9 @@
 * {
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    letter-spacing: 2px
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -10,15 +13,21 @@ body {
 h1 {
     text-align: center;
     color: white;
-    font-size: 4em;
+    font-size: 5em;
+    margin-top: 5%;
 }
 
-ol {
+ul {
     color: wheat;
-    text-align: center;
-    margin-right: 40%;
-    margin-left: 40%;
-    line-height: 2;
+    font-size: 2em;
+    line-height: 2em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    list-style: none;
 }
 
 a {

@@ -1,0 +1,21 @@
+div {
+    box-sizing: border-box;
+}
+
+#izquierda {
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#derecha {
+    background-color: brown;
+    height: 100vh;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}

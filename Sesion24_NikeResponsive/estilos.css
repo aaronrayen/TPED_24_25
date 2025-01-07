@@ -1,0 +1,89 @@
+* {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#nav p {
+    font-size: 2em;
+}
+
+#demo {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#centro {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 5%;
+}
+
+#centro h1 {
+    font-size: 4em;
+    padding-bottom: 1%;
+}
+
+#centro h2 {
+    font-size: 2em;
+    color: rgb(106, 106, 106);
+}
+
+#centro p {
+    font-size: 1.8em;
+    line-height: 130%;
+}
+
+#abajo {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 2em;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+a:hover.tachados {
+    text-decoration: line-through !important;
+    color: blue !important;
+}
+
+a:hover.subrayados {
+    text-decoration: underline !important;
+    color: blue !important;
+}
+
+@media (max-width: 576px) {
+    #centro h1 {
+        font-size: 2.5em;
+    }
+    #centro h2 {
+        font-size: 1.5em;
+    }
+    #centro p {
+        font-size: 1em;
+    }
+    #abajo li {
+        font-size: 0.7em;
+    }
+}

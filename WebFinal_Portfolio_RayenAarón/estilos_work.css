@@ -100,3 +100,69 @@ footer {
 footer img {
     width: 30%;
 }
+
+@media (max-width: 992px) {
+    nav img {
+        width: 20vw;
+    }
+
+    main {
+        padding-top: 15%;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        width: 100%;
+        height: 9vh;
+        font-size: 0.9em;
+    }
+
+    nav img {
+        width: 25vw;
+    }
+
+    nav ul {
+        padding-top: 2%;
+    }
+
+    .workelemento {
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+
+    footer img {
+        width: 40%;
+    }
+}
+
+@media (max-width: 576px) {
+    nav {
+        height: 7vh;
+        font-size: 0.8em;
+    }
+
+    nav img {
+        width: 20vw;
+    }
+
+    nav ul {
+        padding-top: 3%;
+    }
+
+    .workelemento {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .workelemento img {
+        width: 100%;
+    }
+
+    .workelemento h1 {
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+}

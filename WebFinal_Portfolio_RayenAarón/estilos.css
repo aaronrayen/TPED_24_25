@@ -94,7 +94,7 @@ main {
 
 .carousel {
     position: relative;
-    z-index: 1; 
+    z-index: 1;
 }
 
 .work {
@@ -252,4 +252,144 @@ footer {
 
 footer img {
     width: 30%;
+}
+
+@media (max-width: 992px) {
+    nav img {
+        width: 20vw;
+    }
+
+    .presentacion {
+        width: 100%;
+        height: 7%;
+        margin-top: 5%;
+    }
+
+    .resumen {
+        font-size: 0.7em;
+        padding-left: 15%;
+    }
+
+    .workelemento h3 {
+        font-size: 1em;
+        padding-top: 6%;
+    }
+
+    .skills img {
+        width: 10%;
+    }
+
+    .serviceselemento h3 {
+        font-size: 1em;
+    }
+
+    .contact img {
+        width: 10%;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        width: 100%;
+        height: 9vh;
+        font-size: 0.9em;
+    }
+
+    nav img {
+        width: 25vw;
+    }
+
+    nav ul {
+        padding-top: 2%;
+    }
+
+    .presentacion {
+        width: 100%;
+        height: 7%;
+        margin-top: 5%;
+    }
+
+    .presentacion h1 {
+        font-size: 0.3em;
+        padding-top: 15%;
+    }
+
+    .resumen {
+        font-size: 0.6em;
+        padding-left: 10%;
+    }
+
+    .work {
+        width: 100%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 5%;
+    }
+
+    .workelemento {
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .workelemento h3 {
+        font-size: 1em;
+        padding-top: 5%;
+    }
+
+    .skills img {
+        width: 22%;
+    }
+
+    .services {
+        width: 100%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .serviceselemento {
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .serviceselemento h3 {
+        font-size: 1em;
+        padding-top: 5%;
+    }
+
+    .contact img {
+        width: 22%;
+    }
+
+    footer img {
+        width: 40%;
+    }
+}
+
+@media (max-width: 576px) {
+    nav {
+        height: 7vh;
+        font-size: 0.8em;
+    }
+
+    nav img {
+        width: 20vw;
+    }
+
+    nav ul {
+        padding-top: 3%;
+    }
+
+    .presentacion h1 {
+        padding-top: 20%;
+    }
 }
